@@ -1,0 +1,18 @@
+{
+  "name": "real-time-comment-system",
+  "version": "1.0.0",
+  "description": "This is a real time comment system built using Nodejs, mongodb and socket.io",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "author": "Afzal Imam",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "moment": "^2.29.4",
+    "mongoose": "^6.4.6",
+    "socket.io": "^4.5.1"
+  }
+}

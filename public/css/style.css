@@ -1,0 +1,32 @@
+body {
+    background: whitesmoke;
+}
+
+.comment-area {
+    margin-top: 60px;
+}
+
+.comment-box {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.comment {
+    background: white;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 12px;
+    border: 1px solid #ced4da;
+    animation: something .7s ease;
+}
+
+@keyframes something {
+    0% {
+        transform: translateY(-30px);
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(0px);
+        opacity: 1;
+    }
+}
