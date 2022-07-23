@@ -3,8 +3,13 @@
   "version": "1.0.0",
   "description": "This is a real time comment system built using Nodejs, mongodb and socket.io",
   "main": "app.js",
+  "engines": {
+    "node": "16.13.1"
+  },
   "scripts": {
-    "start": "nodemon app.js"
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+
   },
   "author": "Afzal Imam",
   "license": "ISC",
