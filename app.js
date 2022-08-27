@@ -13,8 +13,8 @@ app.use(express.json());
 app.use(express.urlencoded({extended: false}));
 
 //DB Connections
-// const DB_URL = 'mongodb://localhost:27017/comments';
-const DB_URL = "mongodb+srv://"+ process.env.MONGO_USERID + ":" + process.env.MONGO_PASSWORD + "@cluster0.lax8b.mongodb.net/comments";
+const DB_URL = 'mongodb://localhost:27017/comments';
+// const DB_URL = "mongodb+srv://"+ process.env.MONGO_USERID + ":" + process.env.MONGO_PASSWORD + "@cluster0.lax8b.mongodb.net/comments";
 mongoose.connect(DB_URL).then(() => {
     console.log('DB Connected!')
 }).catch(err => {
